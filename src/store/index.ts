@@ -2,6 +2,7 @@ import create from "zustand"
 import produce from "immer"
 import { cameraProps } from "../constants/scene"
 
+
 const useStore = create((set) => ({
 	dragInfo: {
 		isDragging: false,
